@@ -1,3 +1,4 @@
 displayName = Fallout Mod
 author = Tungsten_OpFor
 version = 0.1
+modReferences = Tungsten_OpForContentAddon

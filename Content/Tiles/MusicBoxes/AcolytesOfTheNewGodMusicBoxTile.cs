@@ -1,15 +1,15 @@
-using TungstenOpForContentAddon.Content.Items.Placeable.MusicBoxes;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
+using Fallout_Mod.Content.Items.Placeable.MusicBoxes;
 
 namespace TungstenOpForContentAddon.Content.Tiles.MusicBoxes
 {
-	// See ExampleMod/Common/Systems/MusicLoadingSystem for an explanation on music.
-	public class AcolytesOfTheNewGodMusicBoxTile : ModTile
+    // See ExampleMod/Common/Systems/MusicLoadingSystem for an explanation on music.
+    public class AcolytesOfTheNewGodMusicBoxTile : ModTile
 	{
 		public override void SetStaticDefaults() {
 			Main.tileFrameImportant[Type] = true;
